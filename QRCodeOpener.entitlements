@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Mandatory for Mac App Store distribution. Kept on for local builds too, so the
+	     development build behaves exactly like the shipping one. -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<!-- Deliberately nothing else: the app reads the screen (gated by TCC, which needs no
+	     entitlement), writes the clipboard, and stores one shortcut in UserDefaults. It needs
+	     no network, no file access, and no hardware. Requesting less eases App Review. -->
+</dict>
+</plist>
