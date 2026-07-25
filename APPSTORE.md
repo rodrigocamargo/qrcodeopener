@@ -42,6 +42,18 @@ $99/year. To sell under **Robots Drinking Tea LLC** rather than a personal name,
 > EIN is still needed later, on the W-9 during tax setup, and D&B will typically ask for it
 > when creating the D-U-N-S record — so having it helps, but it does not replace the D-U-N-S.
 
+**Use a company Apple ID, not a personal one.** The Apple ID that enrolls becomes the
+*Account Holder* — the only role that can accept agreements, change banking, and transfer or
+close the membership. Tying that to a personal Apple ID (already carrying personal purchases,
+iCloud, and Family Sharing) mixes business and personal in a way that is awkward to unpick
+later. Create one at `appleid.apple.com` using an address on the LLC's domain, e.g.
+`developer@robotsdrinkingtea.com`, and enable two-factor authentication.
+
+Note that the Apple ID does **not** determine the developer name shown on the App Store —
+that comes from the legal entity verified via D-U-N-S. A personal Apple ID would still
+display "Robots Drinking Tea LLC"; the reason to use a company address is control and
+continuity, not branding.
+
 Organization enrollment requires all of:
 
 - a **D-U-N-S number** for the exact legal entity name. Request free via Apple's lookup at
